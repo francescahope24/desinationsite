@@ -1,0 +1,268 @@
+/* fonts:
+header 1 open sans , sans-serif; 
+header 2 anton , sans-serif; 
+
+colors:
+red: #9F3939;
+white: #FFFFFF;
+black: #212121;
+
+
+
+/* OVERALL */
+body {
+	background: #9F3939;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+	font-family: 'Open Sans', sans-serif;
+	background: #FFFFFF;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+header img {
+	max-width: 10%;
+	padding-top: 1.5rem;
+
+
+}
+
+h1 {
+	font-family: 'Anton' , sans-serif;
+	text-align: center;
+	color: #9F3939;
+	font-size: 2rem;
+	padding-top: 1rem;
+}
+h2{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 3rem;
+
+}
+
+
+footer {
+	font-family: 'Anton', sans-serif;
+	background: #FFFFFF;
+	text-align: left;
+	font-size: 1rem;
+
+}
+
+
+
+footer p {
+	padding-top: 1rem;
+}
+
+
+@media screen and (min-width:40em){
+	header img{
+	width: 5%;
+}
+}
+
+
+.testimonials {
+	background-color:#a9a3a3;
+	background:url(../img/...);
+	color: #FFFFFF
+	
+}
+
+
+/* REVEAL */ 
+.reveal {
+	background-color:#511d1d;
+}
+
+.reveal p {
+	color: #fff;
+	font-size: 1.25rem;
+}
+
+/* REVEAL */ 
+
+/* BUTTON */ 
+.button {
+	background-color: #9F3939;
+}
+
+.button:hover {
+	background-color: #9F3939;
+}
+
+p .button:hover {
+	color: #000;
+}
+
+.button:visited {
+	background-color:#111111;
+}
+
+
+/* BUTTON END */ 
+
+/* MENU */ 
+.menu a {
+	font-size: .9rem;
+}
+
+.menu a:link {
+	color:#9F3939;
+}
+
+.menu a:visited {
+	color:#9F3939;
+}
+
+.menu a:hover {
+	color:#212121;
+
+
+}
+
+
+/* MENU END */ 
+
+.about {
+	background-color: #212121;
+	padding: 2rem;
+}
+
+.about h2 {
+	padding-top: 1rem;
+	
+}
+
+
+.explore {
+
+	padding-top: 2rem;
+}
+/* LEARN */ 
+.learnmore h2 {
+	padding-top: 2rem;
+	line-height: 3rem;
+}
+
+.learnmore {
+	background-color: #212121;
+}
+
+/* LEARN END */ 
+
+
+.BICAD {
+	padding-right: 5rem;
+}
+/* LODGE */ 
+
+.lodge {
+	padding-top: 2.5rem ;
+	text-align: center;
+	color: #fff;
+}
+
+.lodge h2 {
+	margin-top: 0.5rem;
+	margin-bottom: 0;
+	font-family: 'Anton', sans-serif;
+	color: #fff;
+}
+
+.lodge p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	padding: 1rem;
+	color: #fff;
+}
+
+.lodge a {
+	padding-bottom: 1rem;
+	text-align: center;
+	color: #fff;
+}
+
+.lodge a:hover {
+	text-align: center;
+	color: #86B3D8;
+}
+
+
+/* END LODGE */
+}
+/* LODGE END */ 
+
+ul .orbit-conntainer {
+    position: fixed;
+    height: 25%;
+    overflow: hidden;
+    line-height: 1.6;
+    padding: 5rem;
+}
+
+
+/* Tabs */ 
+
+.tabs {
+	background-color: #5f2222;
+	color: #fff;
+	border: none;
+}
+
+.tabs-title a {
+	background-color:#5f2222;
+	color: #fff;
+	border: none;
+}
+
+.tabs-content {
+	background-color: #5f2222; 
+	color: #fff;
+	border: none;
+	margin-padding: 1rem;
+
+}
+
+
+/* panel */ 
+
+
+
+
+label {
+	color: #fff;
+}
+blockquote {
+	font-size: 1.3rem;
+	color: #FFFFFF;
+	;
+}
+footer p { 
+	color: #212121;
+	
+}
+@media screen and (min-width:56em){
+.menu a{
+	font-size: 2rem;
+}
+}
+
+@media print, screen and (min-width: 40em) {
+.grid-x img {
+    width: 70%;
+
+}
+}
+
+
+@media print, screen and (min-width: 40em) { 
+header img {
+	max-width: 10%;
